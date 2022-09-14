@@ -93,7 +93,7 @@ a:focus {
    padding: 0;
  }
 
- .button {
+.button-puk {
    width: 100px;
    height: 100px;
    font-size: 17px;
@@ -101,9 +101,34 @@ a:focus {
    background-color: #E9967A;
  }
 
- .button:hover {
+.button-puk:hover {
     background-color: #E9967A;
     color: #FFEBCD;
+}
+
+.heart .likes-number {
+  padding-left: 30px;
+  line-height: 34px;
+}
+
+.heart {
+  margin-top: 12px;
+  background-image: url("img/heart.svg");
+  width: 80px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;  
+  
+  opacity: 0.7;
+}
+
+.heart.added {
+  margin-top: 12px;
+  background-image: url("img/heart-liked.svg");
+  width: 80px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;  
 }
 
 .status {
